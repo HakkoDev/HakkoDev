@@ -16,7 +16,7 @@ I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading vid
   <ul>
     <li><a href="https://prism-host.com">Prism Host </a> - Prism Host is an inovative hosting company striving to provide the highest quality services at the lowest prices possible! Providing price orieneted Virtual Private Servers, Dedicated Servers, Website Hosting, Game Server Hosting & More! Be sure to check them out!</li>
     <li><a href="https://perimetergaming.com">Perimeter Gaming </a> - Perimeter Gaming is a group of content creators and a community made around content creation. Most known for our FiveM RP server but we provide other servers for people to enjoy themselves on.</li>
-    <li><a href="https://unfunny.co">unfunny.co </a> - unfunny is a content creation group started by me and a few buddies, we're just idiots enjoying ourselves on the internet for your amusement. We also have a podcast! Feel free to check us out.</li>
+    <li><a href="">unfunny.co </a> - unfunny is a content creation group started by me and a few buddies, we're just idiots enjoying ourselves on the internet for your amusement. We also have a podcast! Feel free to check us out.</li>
     <li><a href="https://threeamigos.shop">Three Amigos Modding </a> - We are a collective of three creators who joined forces in the Fall of 2023 with the mission of providing fresh and quality content for the FiveM world! We thrive on new ideas and are ready to help improve your game experience! Resources built by roleplayers, for roleplayers.</li>
   </ul>
 </p>
@@ -32,4 +32,4 @@ I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading vid
 
 #### Services, Frameworks & Software
 
-![](https://skillicons.dev/icons?i=cloudflare,git,workers,grafana,prometheus,astro,tailwind,react,svelte,nodejs,pnpm,mongodb,vue,vite,laravel,dotnet,vscode,blender,docker,visualstudio,mysql,nginx,ps,pr,ai,gamemakerstudio,unreal,unity,windows,ubuntu,debian,kali,linux,mongodb,mysql,postman)
+![](https://skillicons.dev/icons?i=cloudflare,git,workers,grafana,prometheus,astro,tailwind,react,nodejs,pnpm,vite,laravel,dotnet,vscode,blender,docker,visualstudio,mysql,nginx,ps,pr,ai,unreal,unity,windows,ubuntu,debian,kali,linux,mongodb,postman)
