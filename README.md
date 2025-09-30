@@ -24,12 +24,10 @@ I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading vid
 <hr>
 
 
-### Software, languages & services
+### Frequent Languages
 
-#### Languages
+![](https://skillicons.dev/icons?i=lua,js,astro,html,css,ts,php,go,cs,cpp,py,rust)
 
-![](https://skillicons.dev/icons?i=lua,js,html,css,ts,md,php,go,cs,cpp,py,java)
+### Contact
 
-#### Services, Frameworks & Software
-
-![](https://skillicons.dev/icons?i=cloudflare,git,workers,grafana,prometheus,astro,tailwind,react,nodejs,pnpm,vite,laravel,dotnet,vscode,blender,docker,visualstudio,mysql,nginx,ps,pr,ai,unreal,unity,windows,ubuntu,debian,kali,linux,mongodb,postman)
+If you're interested in hiring me for a project or need to reach out, please add me on Discord - [hakkodev](https://discord.com/users/713900040879341589)
