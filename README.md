@@ -5,7 +5,7 @@
 
 <hr>
 
-Howdy, I'm Hakko. I began development back in 2015 with Garry's Mod, from there I quickly grew into loving technology in general. I've since expanded my horizons from software development to game development, web development & design, system administration, cybersecurity, and starting my own hosting company. I appreciate everyone I've met along the way and everyone that's helped me get to where I am now. If you're wondering where all of my work is, I do 90% of my projects privately or on the [Three Amigos Modding](https://github.com/threeamigosmodding) GitHub, so a lot of it is unavailable here - You can go look there for most of my work. If any projects are archived or don't need to be private they will be published here.
+Howdy, I'm Hakko. I began development back in 2015 with Garry's Mod, from there I quickly grew into loving technology in general. I've since expanded my horizons from software development to game development, web development & design, system administration, cybersecurity, and starting my own hosting company. I appreciate everyone I've met along the way and everyone that's helped me get to where I am now. If you're wondering where all of my work is, I do 90% of my projects privately or on the [Scuffed Labs](https://github.com/scuffedlabs) GitHub, so a lot of it is unavailable here - You can go look there for most of my work. If any projects are archived or don't need to be private they will be published here.
 
 I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading videos to [YouTube](https://youtube.hakko.dev) in my free time when I have motivation, feel free to stop by if you want.
 
@@ -17,7 +17,7 @@ I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading vid
     <li><a href="https://prism-host.com">Prism Host </a> - Prism Host is an inovative hosting company striving to provide the highest quality services at the lowest prices possible! Providing price orieneted Virtual Private Servers, Dedicated Servers, Website Hosting, Game Server Hosting & More! Be sure to check them out!</li>
     <li><a href="https://perimetergaming.com">Perimeter Gaming </a> - Perimeter Gaming is a group of content creators and a community made around content creation. Most known for our FiveM RP server but we provide other servers for people to enjoy themselves on.</li>
     <li><a href="">unfunny.co </a> - unfunny is a content creation group started by me and a few buddies, we're just idiots enjoying ourselves on the internet for your amusement. We also have a podcast! Feel free to check us out.</li>
-    <li><a href="https://threeamigos.shop">Three Amigos Modding </a> - We are a collective of three creators who joined forces in the Fall of 2023 with the mission of providing fresh and quality content for the FiveM world! We thrive on new ideas and are ready to help improve your game experience! Resources built by roleplayers, for roleplayers.</li>
+    <li><a href="https://scuffedlabs.com">Scuffed Labs </a> - We are a collective of three creators who joined forces in the Fall of 2023 with the mission of providing fresh and quality content for the FiveM world! We thrive on new ideas and are ready to help improve your game experience! Resources built by roleplayers, for roleplayers.</li>
   </ul>
 </p>
 
