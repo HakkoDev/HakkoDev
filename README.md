@@ -26,7 +26,7 @@ I currently am streaming on [Twitch](https://twitch.hakko.dev) and uploading vid
 
 ### Frequent Languages
 
-![](https://skillicons.dev/icons?i=lua,js,astro,html,css,ts,php,go,cs,cpp,py,rust)
+![](https://skillicons.dev/icons?i=lua,ts,rust,astro,react,html,css,js)
 
 ### Contact
 
