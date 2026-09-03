@@ -1,7 +1,7 @@
 ## Howdy!! 👋
 
 ![](https://komarev.com/ghpvc/?username=hakkodevelopment&color=blue&style=for-the-badge) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I713QEG9) <br />
-![](https://ghstats.hakko.dev/api?username=Hakkodev&show_icons=true&count_private=true&hide_border=true&line_height=20&theme=ayu) ![](https://ghstats.hakko.dev/api/top-langs/?username=Hakkodev&show_icons=true&layout=compact&count_private=true&hide_border=true&theme=ayu)
+![](https://ghstats.hakko.dev/api?username=Hakkodev&show_icons=true&count_private=true&hide_border=true&line_height=20&theme=cobalt2) ![](https://ghstats.hakko.dev/api/top-langs/?username=Hakkodev&show_icons=true&layout=compact&count_private=true&hide_border=true&theme=cobalt2)
 
 <hr>
 
