@@ -4,7 +4,7 @@
 
 **i write software, run servers, and make simple projects unnecessarily complicated.**
 
-[website](https://hakko.dev) · [scuffed labs](https://github.com/ScuffedLabs) · [discord](https://discord.com/users/713900040879341589) · [twitch](https://twitch.hakko.dev) · [youtube](https://youtube.hakko.dev)
+[website](https://hakko.dev) · [scuffed labs](https://github.com/ScuffedLabs) · [discord](https://discord.com/users/713900040879341589) · [twitch](https://www.twitch.tv/hakkolive) · [youtube](https://www.youtube.com/@hakko101)
 
 </div>
 
