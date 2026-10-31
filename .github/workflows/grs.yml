@@ -1,44 +1,71 @@
-
-name: Update GitHub Stats
+name: Update profile cards
 
 on:
-    schedule:
-        - cron: "0 6 * * *"
-    workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 permissions:
-    contents: write
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
 
 jobs:
-    stats:
-        runs-on: ubuntu-latest
+  update:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v6
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
 
-            - name: Generate GitHub stats
-              uses: stats-organization/github-readme-stats-action@v2
-              with:
-                  card: stats
-                  options: username=HakkoDev&show_icons=true&include_all_commits=true&show=contributions&hide_border=true
-                  path: profile/stats.svg
-                  token: ${{ secrets.STATS_TOKEN }}
+      # For private contributions, add a classic PAT with repo and read:user
+      # scopes to repository Actions secrets as STATS_TOKEN.
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=HakkoDev&show_icons=true&include_all_commits=true&show=contributions&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&theme=cobalt2&hide_border=true
+          path: profile/stats.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
 
-            - name: Generate language stats
-              uses: stats-organization/github-readme-stats-action@v2
-              with:
-                  card: top-langs
-                  options: username=HakkoDev&layout=compact&langs_count=10hide_border=true
-                  path: profile/languages.svg
-                  token: ${{ secrets.STATS_TOKEN }}
+      - name: Generate language stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=HakkoDev&layout=compact&langs_count=8&theme=cobalt2&hide_border=true
+          path: profile/languages.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
 
-            - name: Commit updated cards
-              run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                  git add profile/*.svg
-                  if ! git diff --cached --quiet; then
-                      git commit -m "chore(stats): update profile cards"
-                      git push
-                  fi
+      - name: Generate Alder card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=HakkoDev&repo=Alder&theme=cobalt2&hide_border=true
+          path: profile/alder.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Morrow card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=HakkoDev&repo=morrow&theme=cobalt2&hide_border=true
+          path: profile/morrow.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if git diff --cached --quiet; then
+            echo "No card changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(profile): update GitHub cards"
+          git push
