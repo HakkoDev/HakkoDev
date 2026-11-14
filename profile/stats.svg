@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Hakko&#39;s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 92, Total Contributions: 4953, Total Commits  : 4677, Total PRs: 46, Total Issues: 59, Contributed to (last year): 48</desc>
+        <desc id="descId">Total Stars Earned: 92, Total Contributions: 4965, Total Commits  : 4685, Total PRs: 50, Total Issues: 59, Contributed to (last year): 48</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 99.3401432494085;
+        stroke-dashoffset: 97.53981378538504;
       }
     }
   
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >46</text>
+      >50</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
